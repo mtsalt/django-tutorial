@@ -1,4 +1,5 @@
 # django-tutorial
+https://docs.djangoproject.com/en/5.0/intro/tutorial01/
 
 ## Environments
 - Docker(v2.26.1)
