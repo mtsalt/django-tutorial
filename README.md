@@ -2,9 +2,12 @@
 https://docs.djangoproject.com/en/5.0/intro/tutorial01/
 
 ## Environments
-- Docker(v2.26.1)
-- Docker compose(v2.26.1)
-
+- Host
+  - Docker(v2.26.1)
+  - Docker compose(v2.26.1)
+- Guest
+  - Python 3.12
+  - Django 5.0.4
 ## Start environment
 1. git clone https://github.com/mtsalt/django-tutorial.git
 1. cd django-tutorial
