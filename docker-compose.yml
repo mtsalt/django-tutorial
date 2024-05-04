@@ -1,0 +1,12 @@
+services:
+  django:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    tty: true
+    ports:
+      - 8000:8000
+    volumes:
+      - ./src:/home/src
+    stdin_open: true
+    entrypoint: /bin/bash
